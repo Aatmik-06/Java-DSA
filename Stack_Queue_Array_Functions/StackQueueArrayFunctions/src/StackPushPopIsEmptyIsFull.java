@@ -1,6 +1,18 @@
+import java.security.AlgorithmConstraints;
+
 public class StackPushPopIsEmptyIsFull {
+
+//    POP Operation Algorithm
+//    Step1 - Start
+//    Step2 - Check UnderFlow Condition
+//    Step3 - Store top element of the stack into another variable result
+//    Step4 - decrease top element by 1
+//    Step5 - return the result
+//    Step6 - End
+
     static int S[] = new int[5];
     static int top = -1;
+
     public static boolean isEmpty(){
         return top==-1;
     }
