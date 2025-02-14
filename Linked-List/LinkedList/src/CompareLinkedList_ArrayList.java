@@ -22,6 +22,6 @@ public class CompareLinkedList_ArrayList {
         System.out.println("Time taken by Linked List = "+(endTime1-startTime1));
 //        So LinkedList is Faster as Compared to ArrayList
 
-        
+
     }
 }
