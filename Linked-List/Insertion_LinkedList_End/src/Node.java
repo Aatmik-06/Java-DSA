@@ -38,7 +38,7 @@ public class Node {
         n2.next=n3;
         n3.next=n4;
         Node head = n1;
-        
+
         System.out.println();
 
         System.out.print(" --> "+head.data);
