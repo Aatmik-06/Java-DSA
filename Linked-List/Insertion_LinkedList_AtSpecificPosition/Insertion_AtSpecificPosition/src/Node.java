@@ -25,8 +25,6 @@ public class Node {
         Node temp1=head;
         Node temp2=head.next;
 
-
-
         while (pos>1){
             temp1= temp1.next;
             temp2= temp2.next;
