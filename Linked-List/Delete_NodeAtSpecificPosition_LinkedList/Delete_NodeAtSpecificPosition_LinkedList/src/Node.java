@@ -1,12 +1,14 @@
 public class Node {
     public int data;
     public Node next;
+
     public Node(int data){
         this.data=data;
         System.out.println("Node Created");
         next=null;
 
     }
+
     public void display(Node head){
         Node temp = head;
         while (temp!=null){
@@ -15,19 +17,21 @@ public class Node {
         }
     }
 
-    public Node deletePosition(int pos ,Node head){
+    public Node deletePosition(int index ,Node head){
         Node node = head;
-        for (int i = 0; i < pos; i++) {
+        for (int i = 0; i < index; i++) {
             node=node.next;
         }
         return node;
     }
+
     public  int deleteAtSpecificPos(int index ,Node head){
         Node prev = deletePosition(index-1,head);
         int val = prev.next.data;
         prev.next=prev.next.next;
         return val;
     }
+
     public static void main(String[] args) {
 
         Node n1 = new Node(10);
