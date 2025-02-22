@@ -57,8 +57,7 @@ public class Node {
         System.out.println();
         System.out.println();
 
-       head =
-               head.insert(head,5);
+       head = head.insert(head,5);
        head.display(head);
 
     }
