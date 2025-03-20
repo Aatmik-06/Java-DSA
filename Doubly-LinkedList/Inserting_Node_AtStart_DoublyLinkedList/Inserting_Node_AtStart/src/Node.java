@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class Node {
 
     public int data;
@@ -19,7 +21,6 @@ public class Node {
            temp= temp.next;
         }
     }
-
 
 
     public Node insert(Node head,int data){
